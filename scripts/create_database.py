@@ -1,3 +1,15 @@
+"""
+Bluestock Mutual Fund Analytics Platform
+
+Module:
+Create Database
+
+Author:
+Bharath Kumar KA
+
+Description:
+Provides fund exploration and filtering functionality.
+"""
 import pandas as pd
 from sqlalchemy import create_engine
 from pathlib import Path
@@ -15,7 +27,7 @@ fund_master = pd.read_csv(
 )
 
 nav_history = pd.read_csv(
-    BASE_DIR / "data/processed/02_nav_history.csv"
+    BASE_DIR / "data/processed/02_nav_history_calendar.csv"
 )
 
 performance = pd.read_csv(

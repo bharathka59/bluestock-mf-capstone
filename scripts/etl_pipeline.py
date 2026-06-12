@@ -1,3 +1,15 @@
+"""
+Bluestock Mutual Fund Analytics Platform
+
+Module:
+ETL Pipeline
+
+Author:
+Bharath Kumar KA
+
+Description:
+Provides fund exploration and filtering functionality.
+"""
 import pandas as pd
 from pathlib import Path
 
@@ -10,7 +22,7 @@ PROCESSED.mkdir(exist_ok=True)
 
 files = {
     "fund_master": "01_fund_master.csv",
-    "nav_history": "02_nav_history.csv",
+    "nav_history": "02_nav_history_calendar.csv",
     "aum_by_fund_house": "03_aum_by_fund_house.csv",
     "monthly_sip_inflows": "04_monthly_sip_inflows.csv",
     "category_inflows": "05_category_inflows.csv",
