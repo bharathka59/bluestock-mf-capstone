@@ -9,3 +9,7 @@ __pycache__/
 .streamlit/
 
 .ipynb_checkpoints/
+
+nav_fetch.log
+reports/*.pdf
+reports/*.pptx
