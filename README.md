@@ -52,24 +52,12 @@ Guide
 
 Yash Kale
 
-# Dashboard Preview
-
-## Home Page
-
 ![Home](screenshots/home.png)
-
-## Recommendation Engine
 
 ![Recommendation](screenshots/recommendation.png)
 
-## Risk Analytics
-
 ![Risk](screenshots/risk.png)
 
-## Monte Carlo Simulation
-
 ![Monte Carlo](screenshots/montecarlo.png)
-
-## Portfolio Optimization
 
 ![Portfolio](screenshots/portfolio.png)
